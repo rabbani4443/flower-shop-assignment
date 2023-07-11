@@ -50,5 +50,55 @@ header{
     margin-right: 10%;
 }
 
-
 /* End banner Style */
+/* Start Featured Style */
+.featured-container{
+    height: 100vh;
+}
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+.featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 25px 0px;
+}
+.featured-all-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 75%;
+    gap: 35px;
+    padding-top: 50px;
+}
+.featured-box{
+    background-color: rgba(167, 33, 98, 0.15);    
+    border-radius: 300px 300px 0px 0px;
+    width: 300px;
+    height: 400px;
+    padding: 25px 25px 0px 25px;
+}
+.featured-box2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.featured-box3{
+
+    background: rgba(71, 125, 17, 0.15);
+}
+.featured-box >img{
+    width: 100%;
+    height: 100%;
+}
+.featured-box-detail >h4{
+    text-align: center;
+    padding-top: 25px;
+}
+/* End Featured Style */
