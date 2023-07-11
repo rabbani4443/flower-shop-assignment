@@ -17,7 +17,8 @@
 /* End share common style */
 /* Start header Style */
 /* Start banner Style */
-header{
+
+.home-section{
     background: rgba(229, 84, 115, 0.10);
     width: 100%;
     height: 100vh;
@@ -47,7 +48,7 @@ header{
     list-style: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: #272727;
     font-size: 20px;
     font-weight: 700;
     padding-right: 50px;
@@ -63,6 +64,7 @@ header{
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    width: 75%;
 }
 .banner-title{
     color: #272727;
@@ -78,13 +80,15 @@ header{
 }
 
 .banner-content{
-    max-width: 40%;
-    margin-left: 10%;
+    max-width: 50%;
+}
+.banner-photo{
+    width: 50%;
+    text-align: right;
 }
 
 .banner-img{
-    height: 100vh;
-    margin-right: 10%;
+    height: 88vh;
 }
 /* End banner Style */
 /* End header Style */
@@ -92,14 +96,14 @@ header{
 /* Start Featured Style */
 .featured-container{
     height: 100vh;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 .featured-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .featured-description{
     color: rgba(39, 39, 39, 0.60);
@@ -121,9 +125,9 @@ header{
 .featured-box{
     background-color: rgba(167, 33, 98, 0.15);    
     border-radius: 300px 300px 0px 0px;
-    width: 300px;
-    height: 400px;
-    padding: 25px 25px 0px 25px;
+    width: 250px;
+    height: 350px;
+    padding: 30px 30px 0px 30px;
 }
 .featured-box2{
     background: rgba(5, 151, 160, 0.15);
@@ -154,8 +158,6 @@ header{
     width: 75%;
     margin: auto;
     height:60vh;
-    padding: 15px 0px;
-
 }
 .sale-title{
     color: #272727;
@@ -186,14 +188,13 @@ header{
 /* start Instagram images style */
 .instagram-container{
     height: 100vh;
-    padding-bottom: 100px;
 }
 .instagram-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .instagram-description{
     color: rgba(39, 39, 39, 0.60);
@@ -209,12 +210,11 @@ header{
     justify-content: space-around;
     margin: auto;
     width: 75%;
-    gap: 35px;
+    gap: 25px;
     padding-top: 50px;
 }
-.instagram-box{  
-    width: 250px;
-    height: 300px;
+.instagram-box-detail{
+    width: 25%;
 }
 .instagram-box >img{
     width: 100%;
@@ -223,6 +223,9 @@ header{
 
 /* End Instagram images style */
 /* Start Subscribe style */
+.subscribe{
+    padding: 50px 0px 100px 0px;
+}
 .subscribe-container{
     background-image: url("../asset/rectangle\ 9.png");
     background-position: center;
@@ -230,8 +233,7 @@ header{
     background-repeat: no-repeat;
     width: 75%;
     margin: auto;
-    margin-bottom: 100px;
-    padding: 80px 0px;
+    padding: 50px 0px;
     border-radius: 10px;
 }
 .subscribe-title{
