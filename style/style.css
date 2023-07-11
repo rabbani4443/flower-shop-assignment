@@ -54,6 +54,7 @@ header{
 /* Start Featured Style */
 .featured-container{
     height: 100vh;
+    padding-bottom: 300px;
 }
 .featured-title{
     color: #272727;
@@ -102,3 +103,48 @@ header{
     padding-top: 25px;
 }
 /* End Featured Style */
+/* Start Hot Deal Sale style */
+.sale-container{
+    background: rgba(229, 84, 115, 0.10);
+    width: 100%;
+}
+.sale-sub-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    height:60vh;
+    padding: 15px 0px;
+
+}
+.sale-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sale-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 25px 0px;
+}
+
+.sale-content{
+    max-width: 50%;
+}
+.sale-photo{
+    width: 40%;
+}
+.sale-img{
+    width: 250px;
+    height: 100%;
+}
+
+/* end Hot Deal Sale style */
+
+/* start images style */
+
+/* End images style */
