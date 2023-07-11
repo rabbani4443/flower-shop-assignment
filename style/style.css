@@ -125,10 +125,7 @@ nav{
     width: 75%;
     padding-top: 20px;
 }
-.featured-box-detail {
-    width: 33%;
-    height: 350px;
-}
+
 .featured-box{
     background-color: rgba(167, 33, 98, 0.15);    
     border-radius: 300px 300px 0px 0px;
